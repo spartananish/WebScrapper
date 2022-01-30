@@ -1,0 +1,20 @@
+2022-01-29 21:36:26,642:Database:can only concatenate str (not "builtin_function_or_method") to str
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\webScrapper\main.py", line 45, in scrap
+    flipkart_url = "https://www.flipkart.com/search?q="+searchString.replace
+TypeError: can only concatenate str (not "builtin_function_or_method") to str
+2022-01-29 21:38:14,999:Database:can only concatenate str (not "builtin_function_or_method") to str
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\webScrapper\main.py", line 45, in scrap
+    flipkart_url = "https://www.flipkart.com/search?q="+searchString.replace
+TypeError: can only concatenate str (not "builtin_function_or_method") to str
+2022-01-29 21:40:59,142:Database:Logger.log() missing 1 required positional argument: 'msg'
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\webScrapper\main.py", line 60, in scrap
+    DBlogger.log(commentbox)
+TypeError: Logger.log() missing 1 required positional argument: 'msg'
+2022-01-29 21:42:16,317:Database:Logger.log() missing 1 required positional argument: 'msg'
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\webScrapper\main.py", line 60, in scrap
+    DBlogger.log(commentbox)
+TypeError: Logger.log() missing 1 required positional argument: 'msg'
